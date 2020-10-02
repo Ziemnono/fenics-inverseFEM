@@ -8,4 +8,4 @@ Moreover, the approach also computes internal stresses in the organ with a one-s
 
 <h2>FEniCS</h2>
 To download FEniCS: https://fenicsproject.org/download/
-To know more about FEniCS: https://fenicsproject.org/
+and know more about it: https://fenicsproject.org/
