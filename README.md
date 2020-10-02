@@ -21,3 +21,18 @@ FEniCS also offers parallel computation:
 mpirun -n N python3 file_name.py
 ```
 where N is the number of core you want to use.
+
+## Full paper
+
+## Information
+### Authors 
+- Arnaud Mazier: Department of Computational Science, Université du Luxembourg, Esch-sur-Alzette, Luxembourg
+- Alexandre Bilger: Department of Computational Science, Université du Luxembourg, Esch-sur-Alzette, Luxembourg
+- Antonio E. Forte: Harvard University,29 Oxford St,Cambridge MA 02138,USA
+- Igor Peterlik: Institute of Computer Science, Masaryk University
+- Jack S. Hale: Department of Computational Science, Université du Luxembourg, Esch-sur-Alzette, Luxembourg
+- Stéphane P.A. Bordas: Department of Computational Science, Université du Luxembourg, Esch-sur-Alzette, Luxembourg
+
+### Contact 
+mazier.arnaud@gmail.com
+
