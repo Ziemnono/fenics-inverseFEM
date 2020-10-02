@@ -10,7 +10,7 @@ Moreover, the approach also computes internal stresses in the organ with a one-s
 To download FEniCS: https://fenicsproject.org/download/
 and know more about it: https://fenicsproject.org/
 
-** Running the code
+## Running the code
 To run simply run the code:
 ```
 python3 file_name.py
