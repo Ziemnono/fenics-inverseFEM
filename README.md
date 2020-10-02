@@ -9,3 +9,15 @@ Moreover, the approach also computes internal stresses in the organ with a one-s
 <h2>FEniCS</h2>
 To download FEniCS: https://fenicsproject.org/download/
 and know more about it: https://fenicsproject.org/
+
+** Running the code
+To run simply run the code:
+```
+python3 file_name.py
+```
+
+FEniCS also offers parallel computation:
+```
+mpirun -n N python3 file_name.py
+```
+where N is the number of core you want to use.
