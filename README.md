@@ -11,7 +11,7 @@ To download FEniCS: https://fenicsproject.org/download/
 and know more about it: https://fenicsproject.org/
 
 ## Running the code
-To run simply run the code:
+To simply run the code:
 ```
 python3 file_name.py
 ```
