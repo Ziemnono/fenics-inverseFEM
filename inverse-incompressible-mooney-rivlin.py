@@ -75,7 +75,7 @@ def left(x, on_boundary):
 # apply null Dirichlet boundary conditions on the ROI
 bcs = [DirichletBC(U.sub(0), Constant((0.0, 0.0, 0.0)), left)]
 
-# 
+
 solver_parameters = {"newton_solver":{"linear_solver": "mumps"}}
 
 # for incremental load (slower than direct but improve convergence chances)
