@@ -4,10 +4,10 @@
   <Domain>
     <Grid Name="mesh" GridType="Uniform">
       <Topology NumberOfElements="5000" TopologyType="Triangle" NodesPerElement="3">
-        <DataItem Dimensions="5000 3" NumberType="UInt" Format="HDF">forward_initial_configuration_cube.h5:/Mesh/mesh/topology</DataItem>
+        <DataItem Dimensions="5000 3" NumberType="UInt" Format="HDF">inverse_configuration_cube.h5:/Mesh/mesh/topology</DataItem>
       </Topology>
       <Geometry GeometryType="XY">
-        <DataItem Dimensions="2601 2" Format="HDF">forward_initial_configuration_cube.h5:/Mesh/mesh/geometry</DataItem>
+        <DataItem Dimensions="2601 2" Format="HDF">inverse_configuration_cube.h5:/Mesh/mesh/geometry</DataItem>
       </Geometry>
     </Grid>
   </Domain>

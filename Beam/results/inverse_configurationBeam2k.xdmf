@@ -4,10 +4,10 @@
   <Domain>
     <Grid Name="mesh" GridType="Uniform">
       <Topology NumberOfElements="7488" TopologyType="Tetrahedron" NodesPerElement="4">
-        <DataItem Dimensions="7488 4" NumberType="UInt" Format="HDF">initial_configurationBeam2k.h5:/Mesh/mesh/topology</DataItem>
+        <DataItem Dimensions="7488 4" NumberType="UInt" Format="HDF">inverse_configurationBeam2k.h5:/Mesh/mesh/topology</DataItem>
       </Topology>
       <Geometry GeometryType="XYZ">
-        <DataItem Dimensions="2055 3" Format="HDF">initial_configurationBeam2k.h5:/Mesh/mesh/geometry</DataItem>
+        <DataItem Dimensions="2055 3" Format="HDF">inverse_configurationBeam2k.h5:/Mesh/mesh/geometry</DataItem>
       </Geometry>
     </Grid>
   </Domain>

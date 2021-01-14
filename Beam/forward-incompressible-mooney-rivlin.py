@@ -8,8 +8,8 @@
 #paper			 : 
 #==============================================================================
 
-from dolfin import *
 import numpy as np
+from dolfin import *
 
 parameters["form_compiler"]["cpp_optimize"] = True
 parameters["form_compiler"]["representation"] = "uflacs"
@@ -19,7 +19,7 @@ parameters["form_compiler"]["quadrature_degree"] = 2
 # loading the geometry in the meshes directory
 mesh_file = "Beam2k"
 mesh = Mesh()
-with XDMFFile("./meshes/"+mesh_file+".xdmf") as infile:
+with XDMFFile("../meshes/"+mesh_file+".xdmf") as infile:
     infile.read(mesh)
 
 # mixed function space, 2nd order for displacement and 1st order for pressure
@@ -50,7 +50,7 @@ F = variable(grad(u_) + I)
 C = variable(F.T*F)
 E = variable(0.5*(C - I))
 
-# invariariants and Jacobian
+# invariants and Jacobian
 I_C = tr(C)
 II_C = (1.0/2.0)*(tr(C)**2 - tr(C*C))
 III_C = det(C)
@@ -72,8 +72,7 @@ def left(x, on_boundary):
 # apply null Dirichlet boundary conditions on the ROI
 bcs = [DirichletBC(U.sub(0), Constant((0.0, 0.0, 0.0)), left)]
 
-
-solver_parameters = {"newton_solver":{"linear_solver": "mumps"}}
+solver_parameters = {"newton_solver": {"linear_solver": "mumps"}}
 
 # for incremental load (slower than direct but improve convergence chances)
 import numpy as np
