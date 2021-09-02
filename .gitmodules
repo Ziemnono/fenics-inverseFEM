@@ -1,0 +1,3 @@
+[submodule "master"]
+	path = master
+	url = https://bitbucket.org/unilucompmech/fegen/src/master/
