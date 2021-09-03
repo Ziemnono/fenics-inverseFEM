@@ -26,7 +26,7 @@ where N is the number of core you want to use.
 We used a custom code FEgen to generate tetrahedral volume meshes readbale by FEniCS (.xml) from surface meshes (.obj).
 This tool can also read medical images NIFTI (.nii, .nii.gz) or INR (.inr, .inr.gz) and output VTK meshes (.vtu).
 
-https://bitbucket.org/unilucompmech/fegen/src/master/
+https://bitbucket.org/unilucompmech/fegen
 
 ## Full paper
 
