@@ -22,6 +22,11 @@ mpirun -n N python3 file_name.py
 ```
 where N is the number of core you want to use.
 
+<h2>Submodule: FEgen</h2>
+We used a custom code FEgen to generate tetrahedral volume meshes readbale by FEniCS (.xml) from surface meshes (.obj).
+This tool can also read medical images NIFTI (.nii, .nii.gz) or INR (.inr, .inr.gz) and output VTK meshes (.vtu).
+https://bitbucket.org/unilucompmech/fegen/src/master/
+
 ## Full paper
 
 ## Information
