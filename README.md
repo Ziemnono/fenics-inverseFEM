@@ -29,6 +29,7 @@ This tool can also read medical images NIFTI (.nii, .nii.gz) or INR (.inr, .inr.
 https://bitbucket.org/unilucompmech/fegen
 
 ## Full paper
+https://link.springer.com/article/10.1007/s00366-021-01597-z
 
 ## Information
 ### Authors 
