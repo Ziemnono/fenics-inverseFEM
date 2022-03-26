@@ -10,7 +10,8 @@ and know more about it: https://fenicsproject.org/
 
 <h2>SOFA</h2>
 We also used SOFA for comparing our FEniCS simulations.
-To download SOFA: https://www.sofa-framework.org/download/ and know more about it: https://www.sofa-framework.org/
+To download SOFA: https://www.sofa-framework.org/download/ and know more about it: https://www.sofa-framework.org/.
+
 We used the Multiplicative Jacobian Energy Decomposition (MJED) formulation, which is available in a specific SOFA plugin: https://github.com/sofa-framework/SofaMJEDFEM
 
 <h2>Strcture of the repository</h2>
